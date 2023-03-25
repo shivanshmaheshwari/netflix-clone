@@ -115,6 +115,10 @@ div.splash input{
     padding: 15px 10px;
     font-size: 1.2rem;
     width: 100%;
+    background: rgba(1, 0, 0, 0.406);
+    border:1px white solid;
+    border-radius: 10px;
+    
 }
 
 div.splash input~span{
@@ -139,9 +143,12 @@ div.splash input:focus~span{
 }
 
 div.splash button{
+    margin-left: 10px;
     font-size: 1.625rem;
+    font-weight: bold;
     padding: 12px 26px;
     background-color: #e50914;
     color: #fff;
     border: none;
+    border-radius: 6px;
 }
