@@ -1,0 +1,24 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
+
+}
+
+header .logo svg{
+    fill: #e50914;
+    height: 37px;
+}
+
+header div+div{
+    text-align: right;
+}
+
+header a.button{
+    background-color: #e50914;
+    color: #fff;
+    padding: 8px 17px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 15px;
+}
