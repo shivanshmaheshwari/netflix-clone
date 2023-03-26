@@ -18,20 +18,13 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: max-content 1fr;
-    padding: 26px 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
     position: absolute;
     margin: 24px;
     width: 100%;
     z-index: 5;
 
-}
-
-@media screen and (min-width:550px){
-    header{
-        padding: 26px 56px;
-        margin: 24px;
-    }
 }
 
 header a.logo{
@@ -40,14 +33,7 @@ header a.logo{
 
 header .logo svg{
     fill: #e50914;
-    height: 27px;
-}
-
-@media screen and (min-width:550px){
-    header .logo svg{
-        fill: #e50914;
-        height: 37px;
-    }
+    height: 37px;
 }
 
 header div+div{
@@ -73,13 +59,7 @@ header select{
 
 header div.select{
     display: inline-block;
-    margin-right: 10px;
-}
-
-@media screen and (min-width:550px){
-    header div.select{
-        margin-right: 30px;
-    }
+    margin-right: 30px;
 }
 
 header div.select svg{
@@ -98,25 +78,20 @@ div.splash div.gradient{
     position: absolute;
     inset: 0;
 }
-
-div.splash div.background{
-    position: absolute;
-    z-index: 1;
-}
 div.splash div.background img {
     width: 100%;
     opacity: 0.6;
 }
 
 div.splash div.content{
-    padding-top: 95px;
-    padding-bottom: 95px;
     max-width: 655px;
+    position: absolute;
+    inset: 0;
     display: grid;
+    left:50%;
+    margin-left: -327.5px;
     align-items: center;
     text-align: center;
-    position: relative;
-    z-index: 3;
 }
 div.splash h1, div.splash h2, div.splash h3{
     font-weight: normal;
@@ -135,33 +110,11 @@ div.splash h3{
     font-size: 1.2rem;
 }
 
-@media screen and (min-width: 550px){
-    div.splash h1{
-        font-size: 1.75rem;
-        font-weight: normal;
-    }
-    div.splash h2{
-        font-size: 1.125rem;
-        margin-top: 13px;
-        margin-bottom: 29px;
-    }
-    div.splash h3{
-        font-size: 1.125rem;
-    }
-}
-
 div.cta form{
     position: relative;
     display: grid;
-    grid-template-columns: 1fr;
     margin-top: 20px;
-}
-
-@media screen and (min-width:550px){
-    div.cta form{
-        display: grid;
-        grid-template-columns: 1fr max-content;
-    }
+    grid-template-columns: 1fr max-content;
 }
 
 div.cta input{
@@ -348,6 +301,7 @@ div.faq h3{
     font-weight: normal;
     text-align: center;
     margin:40px 0 20px;
+    border-bottom:5px solid #000;
 }
 
 div.faq form{
