@@ -301,10 +301,48 @@ div.faq h3{
     font-weight: normal;
     text-align: center;
     margin:40px 0 20px;
-    border-bottom:5px solid #000;
+    /* border-bottom:5px solid #000; */
 }
 
 div.faq form{
     max-width: 635px;
     margin: 0 auto;
+}
+
+
+footer{
+    border-top: 6px solid #303030;
+    padding: 4% 0;
+    color: #737373;
+}
+
+footer h2{
+    margin-left: 315px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #737373;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+table{
+    width:60%;
+    margin: 1.5% auto;
+    font-size: 1em;
+}
+td{
+    width: 25%;
+    padding: 0.5% 0;
+    text-align: left;
+
+}
+
+#netflixindia{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
 }
